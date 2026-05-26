@@ -2,11 +2,11 @@
 > More details of this project will be released soon.
 
 Pulmonary airway segmentation faces two fundamental challenges: (a) Tri-directional Distinct Distribution: The pulmonary airway exhibits striking plane-dependent morphological divergence across orthogonal imaging planes, manifesting as Sectional Puncta, Branching Arbor, and Longitudinal Tube. (b) Pulmonary Parenchymal Background Interference: The juxtaposition of the airway tree and pulmonary parenchyma gives rise to substantial background confounding, replete with dense, high-frequency artifacts and pathological features. TGA-Net explicitly addresses these challenges to reconstruct continuous and complete airway tree structures.
-![Overview](./figures/fig1.png)
+![Overview](./figures/Fig1.png)
 
 # Network Architecture
 Overview of the proposed TGA-Net architecture. The framework integrates two core components: The Dual-Stream Mixer (DSM) synergistically combines a Token Mixer to capture fine-grained local details with a Mamba-enhanced Feed-Forward Network for modeling global topology. The Tri-Directional Guider (TDG) is deployed in the skip connections to explicitly model tubular airway geometry via tri-directional spatial disentanglement projections, and leverages a controllable gated activation mechanism to suppress parenchymal noise.
-![Overview](./figures/fig2.png)
+![Overview](./figures/Fig2.png)
 
 # Data Description
 The AIIB23 dataset focuses on fibrotic lung diseases and COVID-19, containing 312 High-Resolution CT (HRCT) scans sourced from three institutions. 
@@ -54,4 +54,4 @@ The AeroPath dataset comprises chest CT scans from 27 subjects with diverse path
 
 # Visualization
 Qualitative comparison of 3D airway segmentation results of the proposed TGA-Net against leading state-of-the-art methods. Red indicates True Positives, while Green denotes False Positives.
-![Overview](./figures/fig5.png)
+![Overview](./figures/Fig5.png)
