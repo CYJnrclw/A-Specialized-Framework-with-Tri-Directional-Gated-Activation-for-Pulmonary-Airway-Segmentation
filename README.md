@@ -53,5 +53,5 @@ The AeroPath dataset comprises chest CT scans from 27 subjects with diverse path
 
 
 # Visualization
-Qualitative comparison of 3D airway segmentation results of the proposed TGA-Net against leading state-of-the-art methods. Red indicates True Positives, while Green denotes False Positives.
+Qualitative visualization of the TGA-Net compared to other methods on the ATM22 dataset. Red indicates True Positives, while Green denotes False Positives.
 ![Overview](./figures/Fig5.png)
